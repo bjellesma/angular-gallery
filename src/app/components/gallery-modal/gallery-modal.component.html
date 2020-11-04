@@ -1,0 +1,17 @@
+<div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Rate the photo</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+    <div class="modal-body">
+        <img class="modal-image" src={{photo.url}} alt={{photo.title}}>
+        <div class="modal-content form-group row">
+            <label class="col-2 col-form-label" for="number">Rating:</label>
+            <div class="col-8">
+                <input class="form-control" type="number" name="number" id="number" value={{photo.rating}}>
+            </div>
+            
+        </div>
+    <button (click)="saveData()" type="submit" class="btn btn-primary w-100">Submit Rating</button>
+    </div>

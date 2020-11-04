@@ -1,0 +1,18 @@
+.modal-body{
+    display:grid;
+}
+.modal-image{
+    display:block;
+    margin:auto;
+}
+.modal-content {
+    border:none;
+    display: inline;
+}
+.modal-content label {
+    font-weight:bold;
+    display:inline;
+}
+.modal-content input {
+    width:80%
+}

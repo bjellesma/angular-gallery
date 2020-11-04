@@ -1,0 +1,5 @@
+<div id="gallery">
+    
+    <app-gallery-card *ngFor="let photo of photos" [photo]="photo" [rating]="photo.rating" (click)="openModal(photo)"></app-gallery-card>
+    
+</div>

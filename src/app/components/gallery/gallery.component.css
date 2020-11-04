@@ -1,0 +1,8 @@
+#gallery {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-items:center;
+    /* gap will automatically add padding so the cards aren't touching */
+    gap:20px;
+    padding-bottom: 50px;
+}
